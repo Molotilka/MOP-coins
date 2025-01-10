@@ -73,3 +73,16 @@ body{
 .upgrade:hover .next-level-info{
     display: block;
 }
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/background.jpg'); /* Укажите правильный путь к файлу */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    user-select: none;
+}
